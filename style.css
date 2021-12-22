@@ -1,0 +1,173 @@
+.container {
+    width: 1450px;
+ 
+    margin: 0 auto;
+    
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #75ba75;
+    text-decoration: none;
+
+}
+.brand {
+    float: left;
+}
+
+.serchbox {
+    float: right;
+    background-color: cadetblue;
+    padding: 25px 0px 25px 20px;
+    margin: 20px 0 10px;
+
+}
+
+.text {
+    float: left;
+    width: 290px;
+    margin-right: 60px;
+    padding: 5px 5px;
+    font-size: 15px;
+    background: white url(imgages/search.png) right center no-repeat;
+}   
+
+.submit {
+    float: right;
+    margin-right: 10px;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px ;
+}
+
+.header {
+    /* padding: 0px 10px; */
+   height: 100px;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu {
+    margin-top: 30px;
+    height: 70px;
+    background: linear-gradient(#F8F594, #D5D533);
+    padding: 10px 10px;
+
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+    padding: 10px 30px;
+    border-right: 1px solid black;
+    height: 30px;
+    margin: auto 30px;
+
+}
+
+
+.menu ul li a{
+   text-decoration: none;
+   font-size: 22px;
+   text-transform: uppercase;
+   color: #5d12e7;
+   line-height: 30px;
+   transition: font-size 0.3s ease;
+   
+}
+.menu ul li a:hover {
+    font-size: 25px;
+    font-weight: bold;
+    color:purple;
+}
+.menu ul li:last-child{
+    border-right: none;
+}
+
+.introduction{
+    margin: 20px 0;
+    background: linear-gradient(#F8F594, #D5D533);
+    padding: 35px;
+}
+
+.introduction h1{
+    font-size: 50px;
+}
+
+.introduction p {
+    font-size: 30px;
+    text-align: justify;
+}
+
+.sidebar {
+    width: 650px;
+    height: 650px;
+    border: 1px solid #75ba75;
+    border-radius: 12px;
+    padding: 30px;
+}
+.sidebar h3 {
+    color: purple;
+    font-size: 30px;
+}
+
+#rightsidebar {
+    float: right;
+}
+
+#leftsidebar {
+    float: left;
+}
+
+.sidebar ul li{
+    list-style: none;
+}
+#rightsidebar ul li {
+    padding:0 0 30px 10px;
+    list-style-image: url(imgages/tick.png);
+}
+#rightsidebar ul{
+    margin-top: 40px;
+}
+
+
+#leftsidebar ul{
+    margin-top: 40px;
+}
+
+#leftsidebar ul li {
+    padding:0 0 10px 10px;
+    list-style-image: url(imgages/arrow.png);
+}
+
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #5d12e7;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover,.sidebar ul li a:active {
+    text-decoration: none;
+    font-size: 33px;
+    font-weight: bold;
+    color:purple;
+
+
+}
+
+.footer {
+    font-size: 20px;
+    background:linear-gradient(#F8F594, #D5D533); 
+    padding: 15px 25px;
+    margin: 10px 0;
+}
+
+
+
+
